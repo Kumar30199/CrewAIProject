@@ -1,0 +1,58 @@
+Act as a senior AI software engineer with expertise in CrewAI, backend development (Flask/FastAPI), and modern UI design (HTML/CSS/JS + Tailwind). You are building a full-stack intelligent web app on Replit titled **"Personalized Career Coach"**, using only free APIs and tools.
+
+🔹 Objective:
+Build an AI-powered career guidance system that takes a user's resume as input and provides:
+1. Resume Analysis
+2. Skill-Gap Detection
+3. Job Matching from real-time job markets
+4. Career Path Recommendations
+5. Course Suggestions (free resources only)
+
+🔹 Modules/Agents to Build:
+1. **Resume Analyzer Agent**
+   - Upload PDF/TXT resume
+   - Parse key data: Skills, Experience, Education
+   - Use `pyresparser`, `pdfminer.six`, or `spaCy` (no paid API)
+   - Show extracted data in readable format
+
+2. **Skill Matcher Agent**
+   - Compare user skills with current in-demand skills
+   - Use local skill database (JSON/CSV) from GitHub/StackOverflow trends or job scraping
+   - Highlight missing/in-demand skills visually
+
+3. **Job Market Scanner Agent**
+   - Use **free APIs only** (like Remotive.io, JSearch via RapidAPI free tier)
+   - Show job results based on parsed skills
+   - Render job cards with title, company, location, apply link
+
+4. **Career Recommendation Agent**
+   - Based on skill gaps & resume profile
+   - Recommend future roles & industries
+   - Recommend free learning platforms (Coursera, edX, Udemy free courses)
+   - Use static scraped data or APIs from course providers
+
+🔹 UI/UX Requirements:
+- Clean modern design (TailwindCSS/Bootstrap)
+- Single-page dashboard with tabs or sidebar navigation
+- Resume upload with live summary view
+- Skill-gap highlighted in red/green
+- Job recommendations as responsive cards
+- Career path tree visualization (optional bonus)
+
+🔹 Backend:
+- Python (Flask or FastAPI)
+- Modular code with separation of concerns
+- Use Replit environment variables for any keys (only free APIs allowed)
+- Comment every major logic block
+
+🔹 Output Expectations:
+- Fully running code on Replit
+- Modular file structure: `/backend`, `/frontend`, `/agents`
+- `README.md` with setup + usage instructions
+- Free API integrations or dataset-based fallback
+- Responsive UI with minimal dependencies
+
+Avoid any paid APIs, GPT-4 paid models, or paid course APIs. Only use free/public tools.
+
+Focus on performance, modularity, and scalability. Write clear and clean code.
+

@@ -1,0 +1,322 @@
+{
+  "programming_languages": {
+    "Python": {
+      "category": "Backend",
+      "demand_score": 95,
+      "growth_rate": 15,
+      "avg_salary": 110000,
+      "related_skills": ["Django", "Flask", "FastAPI", "Machine Learning"],
+      "learning_resources": [
+        "Python.org Tutorial",
+        "Automate the Boring Stuff",
+        "Real Python"
+      ]
+    },
+    "JavaScript": {
+      "category": "Frontend/Backend",
+      "demand_score": 88,
+      "growth_rate": 10,
+      "avg_salary": 100000,
+      "related_skills": ["React", "Node.js", "Vue.js", "Angular"],
+      "learning_resources": [
+        "MDN Web Docs",
+        "JavaScript.info",
+        "freeCodeCamp"
+      ]
+    },
+    "TypeScript": {
+      "category": "Frontend/Backend",
+      "demand_score": 82,
+      "growth_rate": 28,
+      "avg_salary": 110000,
+      "related_skills": ["JavaScript", "React", "Angular", "Node.js"],
+      "learning_resources": [
+        "TypeScript Handbook",
+        "TypeScript Deep Dive",
+        "Udemy TypeScript Course"
+      ]
+    },
+    "Java": {
+      "category": "Backend/Enterprise",
+      "demand_score": 85,
+      "growth_rate": 5,
+      "avg_salary": 105000,
+      "related_skills": ["Spring", "Hibernate", "Maven", "Android"],
+      "learning_resources": [
+        "Oracle Java Documentation",
+        "Java Code Geeks",
+        "Baeldung"
+      ]
+    }
+  },
+  "frontend_frameworks": {
+    "React": {
+      "category": "Frontend",
+      "demand_score": 90,
+      "growth_rate": 20,
+      "avg_salary": 105000,
+      "related_skills": ["JavaScript", "Redux", "Next.js", "TypeScript"],
+      "learning_resources": [
+        "React Documentation",
+        "React Tutorial",
+        "Scrimba React Course"
+      ]
+    },
+    "Vue.js": {
+      "category": "Frontend",
+      "demand_score": 65,
+      "growth_rate": 18,
+      "avg_salary": 95000,
+      "related_skills": ["JavaScript", "Nuxt.js", "Vuex"],
+      "learning_resources": [
+        "Vue.js Guide",
+        "Vue Mastery",
+        "Vue School"
+      ]
+    },
+    "Angular": {
+      "category": "Frontend",
+      "demand_score": 70,
+      "growth_rate": 8,
+      "avg_salary": 108000,
+      "related_skills": ["TypeScript", "RxJS", "NgRx"],
+      "learning_resources": [
+        "Angular Documentation",
+        "Angular University",
+        "PluralSight Angular Path"
+      ]
+    }
+  },
+  "backend_technologies": {
+    "Node.js": {
+      "category": "Backend",
+      "demand_score": 80,
+      "growth_rate": 12,
+      "avg_salary": 105000,
+      "related_skills": ["JavaScript", "Express", "MongoDB", "GraphQL"],
+      "learning_resources": [
+        "Node.js Documentation",
+        "Node.js Design Patterns",
+        "The Complete Node.js Course"
+      ]
+    },
+    "Django": {
+      "category": "Backend",
+      "demand_score": 75,
+      "growth_rate": 10,
+      "avg_salary": 115000,
+      "related_skills": ["Python", "PostgreSQL", "REST APIs"],
+      "learning_resources": [
+        "Django Documentation",
+        "Django for Beginners",
+        "Two Scoops of Django"
+      ]
+    },
+    "Express": {
+      "category": "Backend",
+      "demand_score": 72,
+      "growth_rate": 15,
+      "avg_salary": 100000,
+      "related_skills": ["Node.js", "JavaScript", "MongoDB", "REST APIs"],
+      "learning_resources": [
+        "Express.js Documentation",
+        "Express.js Tutorial",
+        "Building APIs with Express"
+      ]
+    }
+  },
+  "cloud_technologies": {
+    "AWS": {
+      "category": "Cloud/DevOps",
+      "demand_score": 92,
+      "growth_rate": 30,
+      "avg_salary": 125000,
+      "related_skills": ["Docker", "Kubernetes", "Terraform", "Linux"],
+      "learning_resources": [
+        "AWS Documentation",
+        "AWS Cloud Practitioner Course",
+        "A Cloud Guru"
+      ]
+    },
+    "Docker": {
+      "category": "DevOps",
+      "demand_score": 85,
+      "growth_rate": 22,
+      "avg_salary": 115000,
+      "related_skills": ["Kubernetes", "AWS", "Linux", "CI/CD"],
+      "learning_resources": [
+        "Docker Documentation",
+        "Docker Deep Dive",
+        "Docker for Developers"
+      ]
+    },
+    "Kubernetes": {
+      "category": "DevOps",
+      "demand_score": 80,
+      "growth_rate": 35,
+      "avg_salary": 130000,
+      "related_skills": ["Docker", "AWS", "Linux", "Helm"],
+      "learning_resources": [
+        "Kubernetes Documentation",
+        "Kubernetes in Action",
+        "CNCF Kubernetes Training"
+      ]
+    }
+  },
+  "data_science": {
+    "Machine Learning": {
+      "category": "Data Science/AI",
+      "demand_score": 95,
+      "growth_rate": 40,
+      "avg_salary": 140000,
+      "related_skills": ["Python", "TensorFlow", "Scikit-learn", "Statistics"],
+      "learning_resources": [
+        "Coursera ML Course",
+        "Fast.ai",
+        "Machine Learning Yearning"
+      ]
+    },
+    "TensorFlow": {
+      "category": "AI/ML",
+      "demand_score": 78,
+      "growth_rate": 35,
+      "avg_salary": 135000,
+      "related_skills": ["Python", "Machine Learning", "Deep Learning"],
+      "learning_resources": [
+        "TensorFlow Documentation",
+        "TensorFlow in Practice",
+        "Deep Learning with TensorFlow"
+      ]
+    },
+    "Pandas": {
+      "category": "Data Analysis",
+      "demand_score": 70,
+      "growth_rate": 20,
+      "avg_salary": 110000,
+      "related_skills": ["Python", "NumPy", "Matplotlib", "Jupyter"],
+      "learning_resources": [
+        "Pandas Documentation",
+        "Python for Data Analysis",
+        "Data School Pandas Tutorial"
+      ]
+    }
+  },
+  "databases": {
+    "PostgreSQL": {
+      "category": "Database",
+      "demand_score": 75,
+      "growth_rate": 15,
+      "avg_salary": 105000,
+      "related_skills": ["SQL", "Database Design", "Python", "Node.js"],
+      "learning_resources": [
+        "PostgreSQL Documentation",
+        "PostgreSQL Tutorial",
+        "The Art of PostgreSQL"
+      ]
+    },
+    "MongoDB": {
+      "category": "NoSQL Database",
+      "demand_score": 68,
+      "growth_rate": 18,
+      "avg_salary": 100000,
+      "related_skills": ["Node.js", "Express", "JavaScript", "Mongoose"],
+      "learning_resources": [
+        "MongoDB Documentation",
+        "MongoDB University",
+        "The Little MongoDB Book"
+      ]
+    },
+    "Redis": {
+      "category": "Cache/Database",
+      "demand_score": 60,
+      "growth_rate": 25,
+      "avg_salary": 115000,
+      "related_skills": ["Caching", "Performance", "Node.js", "Python"],
+      "learning_resources": [
+        "Redis Documentation",
+        "Redis in Action",
+        "Redis University"
+      ]
+    }
+  },
+  "emerging_technologies": {
+    "GraphQL": {
+      "category": "API",
+      "demand_score": 70,
+      "growth_rate": 40,
+      "avg_salary": 115000,
+      "related_skills": ["JavaScript", "React", "Node.js", "Apollo"],
+      "learning_resources": [
+        "GraphQL Documentation",
+        "The Road to GraphQL",
+        "Apollo GraphQL Tutorial"
+      ]
+    },
+    "Microservices": {
+      "category": "Architecture",
+      "demand_score": 75,
+      "growth_rate": 30,
+      "avg_salary": 130000,
+      "related_skills": ["Docker", "Kubernetes", "API Design", "Distributed Systems"],
+      "learning_resources": [
+        "Microservices Patterns",
+        "Building Microservices",
+        "Microservices with Spring Boot"
+      ]
+    },
+    "Serverless": {
+      "category": "Cloud Architecture",
+      "demand_score": 65,
+      "growth_rate": 45,
+      "avg_salary": 120000,
+      "related_skills": ["AWS Lambda", "Azure Functions", "Event-driven Architecture"],
+      "learning_resources": [
+        "Serverless Framework",
+        "AWS Serverless Application Model",
+        "Serverless Architectures on AWS"
+      ]
+    }
+  },
+  "skill_categories": {
+    "Frontend Development": [
+      "JavaScript", "TypeScript", "React", "Vue.js", "Angular", "HTML", "CSS", "Sass"
+    ],
+    "Backend Development": [
+      "Node.js", "Python", "Django", "Flask", "Express", "Java", "Spring", "REST APIs"
+    ],
+    "Cloud & DevOps": [
+      "AWS", "Azure", "GCP", "Docker", "Kubernetes", "Jenkins", "Terraform", "Ansible"
+    ],
+    "Data Science & AI": [
+      "Machine Learning", "Deep Learning", "TensorFlow", "PyTorch", "Pandas", "NumPy", "Statistics"
+    ],
+    "Database Technologies": [
+      "SQL", "PostgreSQL", "MySQL", "MongoDB", "Redis", "Elasticsearch"
+    ],
+    "Mobile Development": [
+      "React Native", "Flutter", "iOS", "Android", "Swift", "Kotlin"
+    ]
+  },
+  "career_progression": {
+    "Junior Developer": {
+      "required_skills": ["HTML", "CSS", "JavaScript", "Git"],
+      "salary_range": "$50k - $80k",
+      "next_level": "Mid-level Developer"
+    },
+    "Mid-level Developer": {
+      "required_skills": ["Framework (React/Vue/Angular)", "Backend Technology", "Database", "Testing"],
+      "salary_range": "$80k - $120k",
+      "next_level": "Senior Developer"
+    },
+    "Senior Developer": {
+      "required_skills": ["System Design", "Mentoring", "Architecture", "Performance Optimization"],
+      "salary_range": "$120k - $180k",
+      "next_level": "Tech Lead/Architect"
+    },
+    "Tech Lead": {
+      "required_skills": ["Leadership", "Project Management", "Cross-team Collaboration", "Strategic Thinking"],
+      "salary_range": "$150k - $220k",
+      "next_level": "Engineering Manager/Principal Engineer"
+    }
+  }
+}

@@ -1,0 +1,155 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: hsl(210 11.11% 96.47%);
+  --foreground: hsl(210 25% 7.8431%);
+  --card: hsl(0 0% 100%);
+  --card-foreground: hsl(210 25% 7.8431%);
+  --popover: hsl(0 0% 100%);
+  --popover-foreground: hsl(210 25% 7.8431%);
+  --primary: hsl(220 93.1% 54.1%);
+  --primary-foreground: hsl(0 0% 100%);
+  --secondary: hsl(210 25% 7.8431%);
+  --secondary-foreground: hsl(0 0% 100%);
+  --muted: hsl(209 13.3% 95.3%);
+  --muted-foreground: hsl(210 25% 7.8431%);
+  --accent: hsl(211.8 51.4% 92.7%);
+  --accent-foreground: hsl(220 93.1% 54.1%);
+  --destructive: hsl(0 84.2% 60.2%);
+  --destructive-foreground: hsl(0 0% 100%);
+  --border: hsl(214 31.8% 91.4%);
+  --input: hsl(200 20% 98%);
+  --ring: hsl(220 93.1% 54.1%);
+  --chart-1: hsl(220 93.1% 54.1%);
+  --chart-2: hsl(159.8 100% 36.1%);
+  --chart-3: hsl(42 92.8% 56.3%);
+  --chart-4: hsl(147.1 78.5% 42%);
+  --chart-5: hsl(341.5 75.2% 51%);
+  --sidebar: hsl(0 0% 100%);
+  --sidebar-foreground: hsl(210 25% 7.8431%);
+  --sidebar-primary: hsl(220 93.1% 54.1%);
+  --sidebar-primary-foreground: hsl(0 0% 100%);
+  --sidebar-accent: hsl(211.8 51.4% 92.7%);
+  --sidebar-accent-foreground: hsl(220 93.1% 54.1%);
+  --sidebar-border: hsl(214 31.8% 91.4%);
+  --sidebar-ring: hsl(220 93.1% 54.1%);
+  --font-sans: 'Inter', system-ui, sans-serif;
+  --font-serif: Georgia, serif;
+  --font-mono: Menlo, monospace;
+  --radius: 1.3rem;
+}
+
+.dark {
+  --background: hsl(0 0% 0%);
+  --foreground: hsl(200 6.7% 91.2%);
+  --card: hsl(228 9.8% 10%);
+  --card-foreground: hsl(0 0% 85.1%);
+  --popover: hsl(0 0% 0%);
+  --popover-foreground: hsl(200 6.7% 91.2%);
+  --primary: hsl(220 91.2% 52.5%);
+  --primary-foreground: hsl(0 0% 100%);
+  --secondary: hsl(195 15.4% 94.9%);
+  --secondary-foreground: hsl(210 25% 7.8431%);
+  --muted: hsl(0 0% 9.4%);
+  --muted-foreground: hsl(210 3.4% 46.3%);
+  --accent: hsl(206 70% 7.8%);
+  --accent-foreground: hsl(220 91.2% 52.5%);
+  --destructive: hsl(0 84.2% 60.2%);
+  --destructive-foreground: hsl(0 0% 100%);
+  --border: hsl(210 5.3% 14.9%);
+  --input: hsl(208 27.7% 18.4%);
+  --ring: hsl(220 93.1% 54.1%);
+  --chart-1: hsl(220 93.1% 54.1%);
+  --chart-2: hsl(159.8 100% 36.1%);
+  --chart-3: hsl(42 92.8% 56.3%);
+  --chart-4: hsl(147.1 78.5% 42%);
+  --chart-5: hsl(341.5 75.2% 51%);
+  --sidebar: hsl(228 9.8% 10%);
+  --sidebar-foreground: hsl(0 0% 85.1%);
+  --sidebar-primary: hsl(220 93.1% 54.1%);
+  --sidebar-primary-foreground: hsl(0 0% 100%);
+  --sidebar-accent: hsl(206 70% 7.8%);
+  --sidebar-accent-foreground: hsl(220 91.2% 52.5%);
+  --sidebar-border: hsl(206 15.8% 26.1%);
+  --sidebar-ring: hsl(220 93.1% 54.1%);
+  --font-sans: 'Inter', system-ui, sans-serif;
+  --font-serif: Georgia, serif;
+  --font-mono: Menlo, monospace;
+  --radius: 1.3rem;
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply font-sans antialiased bg-background text-foreground;
+    font-family: var(--font-sans);
+  }
+}
+
+/* Custom styles for the career coaching app */
+@layer components {
+  .primary-50 {
+    background-color: hsl(220 100% 97%);
+  }
+  
+  .primary-100 {
+    background-color: hsl(220 95% 92%);
+  }
+  
+  .primary-500 {
+    background-color: var(--primary);
+  }
+  
+  .primary-600 {
+    background-color: hsl(220 93% 50%);
+  }
+  
+  .primary-700 {
+    background-color: hsl(220 93% 45%);
+  }
+  
+  .success-50 {
+    background-color: hsl(138 76% 97%);
+  }
+  
+  .success-100 {
+    background-color: hsl(141 84% 93%);
+  }
+  
+  .success-500 {
+    background-color: hsl(142 76% 36%);
+  }
+  
+  .success-600 {
+    background-color: hsl(142 76% 32%);
+  }
+  
+  .warning-50 {
+    background-color: hsl(48 100% 96%);
+  }
+  
+  .warning-100 {
+    background-color: hsl(48 96% 89%);
+  }
+  
+  .warning-500 {
+    background-color: hsl(38 92% 50%);
+  }
+  
+  .warning-600 {
+    background-color: hsl(32 95% 44%);
+  }
+  
+  /* Line clamp utility */
+  .line-clamp-3 {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+}
